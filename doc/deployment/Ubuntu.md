@@ -37,8 +37,7 @@ This example works with Sqlite3 and Python built in web server. This method is n
 ### Deploy using built in web server (not recommended but good for testing)
 
     # This has to be done every time you want to start a server
-    cd mybooktype
-    source bin/activate
+    source mybooktype/bin/activate
     source mybook/booki.env
     django-admin.py runserver 0.0.0.0:8080
 
